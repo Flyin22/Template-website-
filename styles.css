@@ -115,6 +115,7 @@ body, html {
     position: relative;
     max-width: 100%;
     overflow: hidden;
+    border: #070000;
 }
 
 .gallery {
