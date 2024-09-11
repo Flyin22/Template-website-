@@ -116,6 +116,7 @@ body, html {
     max-width: 100%;
     overflow: hidden;
     border: #070000;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Adds a subtle shadow effect */
 }
 
 .gallery {
