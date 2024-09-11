@@ -116,7 +116,11 @@ body, html {
     max-width: 100%;
     overflow: hidden;
     border: #070000;
+<<<<<<< HEAD
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Adds a subtle shadow effect */
+=======
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 1.5); /* Adds a subtle shadow effect */
+>>>>>>> dd1be72 (Add files via upload)
 }
 
 .gallery {
