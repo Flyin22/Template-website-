@@ -3,15 +3,17 @@ body, html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-align: center;
 }
 
 /* Navbar */
 .navbar {
-    display: flex;
+    display: inline-flex;
     align-items: center;
     background-color: #15adf3;
     color: #fff;
     padding: 10px;
+    text-align: right;
 }
 
 .navbar a {
@@ -31,16 +33,38 @@ body, html {
     padding: 20px;
 }
 
-.image-block img {
-    max-width: 100%;
-    height: auto;
+.image-block {
+    position: relative;
 }
 
-/* Sections */
-.section {
-    padding: 20px;
-    text-align: center;
+.image-overlay {
+    position: right;
+    display: in; 
 }
+
+.image-overlay img {
+    display: block;
+    max-width: 600px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.5); 
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    max-width: 90%; 
+    white-space: nowrap; 
+}
+
 
 .background-color {
     background-color: #f5f5f5;
