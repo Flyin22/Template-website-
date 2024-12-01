@@ -132,8 +132,7 @@ body, html {
     width: 200px; /* Adjust as needed */
     height: auto;
     border-radius: 8px;
-    border: 6px solid #ff0000;
-    border-width: 3px;
+    
 }
 
 .scroll-buttons {
