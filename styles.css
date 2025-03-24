@@ -112,7 +112,7 @@ body, html {
 
 
 .gallery-container {
-    position: relative;
+    position: auto;
     max-width: 100%;
     overflow: hidden;
     
