@@ -9,7 +9,7 @@ body, html {
 /* Navbar */
 .navbar {
     display: inline-flex;
-    align-items: auto;
+    align-items: center;
     background-color: #15adf3;
     color: #fff;
     padding: 10px;
