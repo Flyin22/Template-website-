@@ -8,8 +8,8 @@ body, html {
 
 /* Navbar */
 .navbar {
-    display: grid;
-    align-items: center;
+    display: inline-flex;
+    align-items: auto;
     background-color: #15adf3;
     color: #fff;
     padding: 10px;
